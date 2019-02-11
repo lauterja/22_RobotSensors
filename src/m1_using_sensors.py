@@ -365,7 +365,6 @@ class DriveSystem(object):
         desired_degrees = abs(inches / inches_per_degree)
         self.left_motor.reset_position()
         self.right_motor.reset_position()
-        while True:
 
 
     def go_straight_until_black(self, speed):
